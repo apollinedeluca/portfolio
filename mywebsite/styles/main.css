@@ -1,0 +1,136 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+min-height: 100vh;
+background-image: url('images/canada.jpg');
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+p{
+padding: 3%;
+color:yellow;
+line-height: normal;}
+
+h1{
+  color: white;
+}
+
+.header-content-block{
+  background: #345159;
+  background: rgba(171,187,186,0.8);
+  padding: 22px;
+}
+
+.header-content-block
+h1{
+font-size: 4em;
+  color: white;
+}
+
+
+
+
+#bio{
+  background:#345159;
+min-height: 90vh;
+padding-top: 8%;
+  max-height: 100vh;
+}
+.bio-content-block {
+    max-width: 960px;
+    margin: auto;
+    columns: 2;}
+
+h1{
+  margin-left: 190px;
+}
+
+.bio-content-block
+p{
+  font-size: 2em;
+}
+
+
+
+
+
+
+#comp{
+  background: #a5b4af;
+  min-height: 100vh;
+  padding-top: 3%;
+    max-height: 100vh;
+}
+
+  .comp-section-content{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+  column-gap: normal;
+  }
+  .comp-content-block
+  h1{ color: #345159;
+padding:1em;  }
+h2{color: #345159;}
+p{color: white;
+width: auto;
+padding:1em;
+display: block;
+float: right;
+}
+
+
+
+
+
+#portfolio{
+background:#345159;
+max-height: 200vh;
+min-height: 200vh;
+padding-top: 3%;
+}
+
+.portfolio-section-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:
+
+}
+.portfolio{  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;}
+
+.portfolio-content{
+padding:22px;
+max-width: 480px;
+margin: 20px;
+position: relative;
+width: auto;
+}
+
+
+h2{text-decoration: none;
+text-align: center;
+font-size: 1em;
+color: white;}
+
+}
+h1{ color:#a5b4af}
+
+
+
+
+footer{
+  min-height: 20px;
+  background:#a5b4af;
+  color: white;
+  padding: 20px;
+}
